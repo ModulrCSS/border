@@ -1,0 +1,26 @@
+{
+  "name": "modulr-border",
+  "homepage": "https://github.com/ModulrCSS/border",
+  "authors": [
+    "uloga <wpnemesis@gmail.com>"
+  ],
+  "description": "Modulr.css Border Module ( all of the border properties )",
+  "main": "",
+  "keywords": [
+    "border",
+    "css3",
+    "html5",
+    "boostrap",
+    "frontend",
+    "framework",
+    "modulr"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

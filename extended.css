@@ -1,0 +1,371 @@
+/*
+  @about Modulr.css
+  -----------------------------------------
+  @desc: Pure Css Display Module (flex grid)
+  @author: Alan Museljic
+  @git: https://www.github/com/uloga/display
+  @source: http://www.getmodulr.com/css/display
+  ------------------------------------------------
+  @uses: modulr/display/*
+  @docs: true 
+\-------------------------------------------------*/
+
+
+/* 
+  @property: border color
+  @desc: adds default border color
+*/
+
+[mod-border]{
+  border-color: #e6e6e6;
+}
+
+/* 
+  @property: border style
+  @desc: border-style solid
+*/
+
+
+[mod-border~="solid"],
+[mod-each-child~="border-solid"] > [mod-child],
+[mod-each-child~="on-hover-border-solid"] > [mod-child]:hover,
+[mod-each-child~="on-focus-border-solid"] > [mod-child]:focus{
+  border-style: solid;
+}
+
+/* 
+  @property: border style
+  @desc: border-style dashed
+*/
+
+[mod-border~="dashed"],
+[mod-each-child~="border-dashed"] > [mod-child],
+[mod-each-child~="on-hover-border-dashed"] > [mod-child]:hover,
+[mod-each-child~="on-focus-border-dashed"] > [mod-child]:focus{
+  border-style: dashed;
+}
+
+/* 
+  @property: border style
+  @desc: border-style dotted
+*/
+
+[mod-border~="dotted"],
+[mod-each-child~="border-dotted"] > [mod-child],
+[mod-each-child~="on-hover-border-dotted"] > [mod-child]:hover,
+[mod-each-child~="on-focus-border-dotted"] > [mod-child]:focus{
+  border-style: dotted;
+}
+
+/* 
+  @property: border style
+  @desc: border-style double
+*/
+
+[mod-border~="double"],
+[mod-each-child~="border-double"] > [mod-child],
+[mod-each-child~="on-hover-border-double"] > [mod-child]:hover,
+[mod-each-child~="on-focus-border-double"] > [mod-child]:focus{
+  border-style: double;
+}
+
+
+/* 
+  @property: border width
+  @desc: border-width 1px
+*/
+
+[mod-border~="1p"],
+[mod-border~="1p"] a,
+[mod-each-child~="border-1p"] > [mod-child],
+[mod-each-child~="on-hover-border-1p"] > [mod-child]:hover,
+[mod-each-child~="on-focus-border-1p"] > [mod-child]:focus{
+  border-width: 1px;
+}
+
+/* 
+  @property: border width
+  @desc: border-width 2px
+*/
+
+[mod-border~="2p"],
+[mod-border~="2p"] a,
+[mod-each-child~="border-2p"] > [mod-child],
+[mod-each-child~="on-hover-border-2p"] > [mod-child]:hover,
+[mod-each-child~="on-focus-border-2p"] > [mod-child]:focus{
+  border-width: 2px;
+}
+
+/* 
+  @property: border width
+  @desc: border-width 3px
+*/
+
+[mod-border~="3p"],
+[mod-border~="3p"] a,
+[mod-each-child~="border-3p"] > [mod-child],
+[mod-each-child~="on-hover-border-3p"] > [mod-child]:hover,
+[mod-each-child~="on-focus-border-3p"] > [mod-child]:focus{
+  border-width: 3px;
+}
+
+/* 
+  @property: border width
+  @desc: border-width 4px
+*/
+
+[mod-border~="4p"],
+[mod-border~="4p"] a,
+[mod-each-child~="border-4p"] > [mod-child],
+[mod-each-child~="on-hover-border-4p"] > [mod-child]:hover,
+[mod-each-child~="on-focus-border-4p"] > [mod-child]:focus{
+  border-width: 4px;
+}
+
+/* 
+  @property: border width
+  @desc: border-width 5px
+*/
+
+[mod-border~="5p"],
+[mod-border~="5p"] a,
+[mod-each-child~="border-5p"] > [mod-child],
+[mod-each-child~="on-hover-border-5p"] > [mod-child]:hover,
+[mod-each-child~="on-focus-border-5p"] > [mod-child]:focus{
+  border-width: 5px;
+}
+
+/* 
+  @property: border width
+  @desc: border-width 6px
+*/
+
+[mod-border~="6p"],
+[mod-border~="6p"] a,
+[mod-each-child~="border-6p"] > [mod-child],
+[mod-each-child~="on-hover-border-6p"] > [mod-child]:hover,
+[mod-each-child~="on-focus-border-6p"] > [mod-child]:focus{
+  border-width: 6px;
+}
+
+/* 
+  @property: border width
+  @desc: border-width 7px
+*/
+
+[mod-border~="7p"],
+[mod-border~="7p"] a,
+[mod-each-child~="border-7p"] > [mod-child],
+[mod-each-child~="on-hover-border-7p"] > [mod-child]:hover,
+[mod-each-child~="on-focus-border-7p"] > [mod-child]:focus{
+  border-width: 7px;
+}
+
+/* 
+  @property: border width
+  @desc: border-width 8px
+*/
+
+[mod-border~="8p"],
+[mod-border~="8p"] a,
+[mod-each-child~="border-8p"] > [mod-child],
+[mod-each-child~="on-hover-border-8p"] > [mod-child]:hover,
+[mod-each-child~="on-focus-border-8p"] > [mod-child]:focus{
+  border-width: 8px;
+}
+
+/* 
+  @property: border width
+  @desc: border-width 9px
+*/
+
+[mod-border~="9p"],
+[mod-border~="9p"] a,
+[mod-each-child~="border-9p"] > [mod-child],
+[mod-each-child~="on-hover-border-9p"] > [mod-child]:hover,
+[mod-each-child~="on-focus-border-9p"] > [mod-child]:focus{
+  border-width: 9px;
+}
+
+/* 
+  @property: border width
+  @desc: border-width 10px
+*/
+
+[mod-border~="10p"],
+[mod-border~="10p"] a,
+[mod-each-child~="border-10p"] > [mod-child],
+[mod-each-child~="on-hover-border-10p"] > [mod-child]:hover,
+[mod-each-child~="on-focus-border-10p"] > [mod-child]:focus{
+  border-width: 10px;
+}
+
+
+/* 
+  @property: border position
+  @desc: displays top border
+*/
+
+[mod-border~="top"],
+[mod-each-child~="border-top"] > [mod-child],
+[mod-each-child~="on-hover-border-top"] > [mod-child]:hover,
+[mod-each-child~="on-focus-border-top"] > [mod-child]:focus{
+  border-right: 0;
+  border-bottom: 0;
+  border-left: 0;
+}
+
+/* 
+  @property: border position
+  @desc: displays right border
+*/
+
+[mod-border~="right"],
+[mod-each-child~="border-right"] > [mod-child],
+[mod-each-child~="on-hover-border-right"] > [mod-child]:hover,
+[mod-each-child~="on-focus-border-right"] > [mod-child]:focus{
+  border-top: 0;
+  border-bottom: 0;
+  border-left: 0;
+}
+
+/* 
+  @property: border position
+  @desc: displays bottom border
+*/
+
+[mod-border~="bottom"],
+[mod-each-child~="border-bottom"] > [mod-child],
+[mod-each-child~="on-hover-border-bottom"] > [mod-child]:hover,
+[mod-each-child~="on-focus-border-bottom"] > [mod-child]:focus{
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+}
+
+/* 
+  @property: border position
+  @desc: displays left border
+*/
+
+[mod-border~="left"],
+[mod-each-child~="border-left"] > [mod-child],
+[mod-each-child~="on-hover-border-left"] > [mod-child]:hover,
+[mod-each-child~="on-focus-border-left"] > [mod-child]:focus{
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+/* 
+  @property: border position
+  @desc: displays horizontal border
+*/
+
+[mod-border~="horizontal"],
+[mod-each-child~="border-horizontal"] > [mod-child],
+[mod-each-child~="on-hover-border-horizontal"] > [mod-child]:hover,
+[mod-each-child~="on-focus-border-horizontal"] > [mod-child]:focus{
+  border-left: 0;
+  border-right: 0;
+}
+
+/* 
+  @property: border position
+  @desc: displays vertical border
+*/
+
+[mod-border~="vertical"],
+[mod-each-child~="border-vertical"] > [mod-child],
+[mod-each-child~="on-hover-border-vertical"] > [mod-child]:hover,
+[mod-each-child~="on-focus-border-vertical"] > [mod-child]:focus{
+  border-top: 0;
+  border-bottom: 0;
+}
+
+/* 
+  @property: border width
+  @desc: remove all borders
+*/
+
+[mod-border~="remove"],
+[mod-border~="remove-border"],
+[mod-each-child~="remove-border"] > [mod-child],
+[mod-each-child~="on-hover-remove-border"] > [mod-child]:hover,
+[mod-each-child~="on-focus-remove-border"] > [mod-child]:focus{
+  border-width: 0 !important;
+}
+
+/* 
+  @property: border width
+  @desc: remove top border
+*/
+
+[mod-border~="remove-top"],
+[mod-each-child~="remove-top"] > [mod-child],
+[mod-each-child~="on-hover-remove-top"] > [mod-child]:hover,
+[mod-each-child~="on-focus-remove-top"] > [mod-child]:focus{
+  border-top-width: 0 !important;
+}
+
+/* 
+  @property: border width
+  @desc: remove right border
+*/
+
+[mod-border~="remove-right"],
+[mod-each-child~="remove-right"] > [mod-child],
+[mod-each-child~="on-hover-remove-right"] > [mod-child]:hover,
+[mod-each-child~="on-focus-remove-right"] > [mod-child]:focus{
+  border-right-width: 0 !important;
+}
+
+/* 
+  @property: border width
+  @desc: remove bottom border
+*/
+
+[mod-border~="remove-bottom"],
+[mod-each-child~="remove-bottom"] > [mod-child],
+[mod-each-child~="on-hover-remove-bottom"] > [mod-child]:hover,
+[mod-each-child~="on-focus-remove-bottom"] > [mod-child]:focus{
+  border-bottom-width: 0 !important;
+}
+
+/* 
+  @property: border width
+  @desc: remove left border
+*/
+
+[mod-border~="remove-left"],
+[mod-each-child~="remove-left"] > [mod-child],
+[mod-each-child~="on-hover-remove-left"] > [mod-child]:hover,
+[mod-each-child~="on-focus-remove-left"] > [mod-child]:focus{
+  border-left-width: 0 !important;
+}
+
+/* 
+  @property: border width
+  @desc: remove horizontal border
+*/
+
+[mod-border~="remove-horizontal"],
+[mod-each-child~="remove-horizontal"] > [mod-child],
+[mod-each-child~="on-hover-remove-horizontal"] > [mod-child]:hover,
+[mod-each-child~="on-focus-remove-horizontal"] > [mod-child]:focus{
+  border-top-width: 0 !important;
+  border-bottom-width: 0 !important;
+}
+
+/* 
+  @property: border width
+  @desc: remove vertical border
+*/
+
+[mod-border~="remove-vertical"],
+[mod-each-child~="remove-vertical"] > [mod-child],
+[mod-each-child~="on-hover-remove-vertical"] > [mod-child]:hover,
+[mod-each-child~="on-focus-remove-vertical"] > [mod-child]:focus{
+  border-left-width: 0 !important;
+  border-right-width: 0 !important;
+}

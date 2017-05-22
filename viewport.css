@@ -1,0 +1,768 @@
+/* extra large size */
+
+@media (min-width: 1920px){
+
+  [mod-if-screen-xl~="border-solid"],
+  [mod-if-screen-xl~="each-child-border-solid"] > [mod-child]{
+    border-style: solid;
+  }
+  [mod-if-screen-xl~="border-dashed"],
+  [mod-if-screen-xl~="each-child-border-dashed"] > [mod-child]{
+    border-style: dashed;
+  }
+  [mod-if-screen-xl~="border-dotted"],
+  [mod-if-screen-xl~="each-child-border-dotted"] > [mod-child]{
+    border-style: dotted;
+  }
+  [mod-if-screen-xl~="border-double"],
+  [mod-if-screen-xl~="each-child-border-double"] > [mod-child]{
+    border-style: double;
+  }
+  [mod-if-screen-xl~="border-1p"],
+  [mod-if-screen-xl~="each-child-border-1p"] > [mod-child]{
+    border-width: 1px;
+  }
+  [mod-if-screen-xl~="border-2p"],
+  [mod-if-screen-xl~="each-child-border-2p"] > [mod-child]{
+    border-width: 2px;
+  }
+
+  [mod-if-screen-xl~="border-3p"],
+  [mod-if-screen-xl~="each-child-border-3p"] > [mod-child]{
+    border-width: 3px;
+  }
+  [mod-if-screen-xl~="border-4p"],
+  [mod-if-screen-xl~="each-child-border-4p"] > [mod-child]{
+    border-width: 4px;
+  }
+  [mod-if-screen-xl~="border-5p"],
+  [mod-if-screen-xl~="each-child-border-5p"] > [mod-child]{
+    border-width: 5px;
+  }
+  [mod-if-screen-xl~="border-6p"],
+  [mod-if-screen-xl~="each-child-border-6p"] > [mod-child]{
+    border-width: 6px;
+  }
+  [mod-if-screen-xl~="border-7p"],
+  [mod-if-screen-xl~="each-child-border-7p"] > [mod-child]{
+    border-width: 7px;
+  }
+  [mod-if-screen-xl~="border-8p"],
+  [mod-if-screen-xl~="each-child-border-8p"] > [mod-child]{
+    border-width: 8px;
+  }
+  [mod-if-screen-xl~="border-9p"],
+  [mod-if-screen-xl~="each-child-border-9p"] > [mod-child]{
+    border-width: 9px;
+  }
+  [mod-if-screen-xl~="border-10p"],
+  [mod-if-screen-xl~="each-child-border-10p"] > [mod-child]{
+    border-width: 10px;
+  }
+  [mod-if-screen-xl~="border-top"],
+  [mod-if-screen-xl~="each-child-border-top"] > [mod-child]{
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+  }
+  [mod-if-screen-xl~="border-right"],
+  [mod-if-screen-xl~="each-child-border-right"] > [mod-child]{
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+  }
+  [mod-if-screen-xl~="border-bottom"],
+  [mod-if-screen-xl~="each-child-border-bottom"] > [mod-child]{
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+  }
+  [mod-if-screen-xl~="border-left"],
+  [mod-if-screen-xl~="each-child-border-left"] > [mod-child]{
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+  }
+  [mod-if-screen-xl~="border-horizontal"],
+  [mod-if-screen-xl~="each-child-border-horizontal"] > [mod-child]{
+    border-left: 0;
+    border-right: 0;
+  }
+  [mod-if-screen-xl~="border-vertical"],
+  [mod-if-screen-xl~="each-child-border-vertical"] > [mod-child]{
+    border-top: 0;
+    border-bottom: 0;
+  }
+  [mod-if-screen-xl~="remove-border"],
+  [mod-if-screen-xl~="each-child-remove-border"] > [mod-child]{
+    border-width: 0 !important;
+  }
+  [mod-if-screen-xl~="remove-top"],
+  [mod-if-screen-xl~="each-child-remove-top"] > [mod-child]{
+    border-top-width: 0 !important;
+  }
+  [mod-if-screen-xl~="remove-right"],
+  [mod-if-screen-xl~="each-child-remove-right"] > [mod-child]{
+    border-right-width: 0 !important;
+  }
+  [mod-if-screen-xl~="remove-bottom"],
+  [mod-if-screen-xl~="each-child-remove-bottom"] > [mod-child]{
+    border-bottom-width: 0 !important;
+  }
+  [mod-if-screen-xl~="remove-left"],
+  [mod-if-screen-xl~="each-child-remove-left"] > [mod-child]{
+    border-left-width: 0 !important;
+  }
+  [mod-if-screen-xl~="remove-horizontal"],
+  [mod-if-screen-xl~="each-child-remove-horizontal"] > [mod-child]{
+    border-top-width: 0 !important;
+    border-bottom-width: 0 !important;
+  }
+  [mod-if-screen-xl~="remove-vertical"],
+  [mod-if-screen-xl~="each-child-remove-vertical"] > [mod-child]{
+    border-left-width: 0 !important;
+    border-right-width: 0 !important;
+  }
+
+
+}
+
+/* large size */
+
+@media (max-width: 1920px){
+  
+  [mod-if-screen-lg~="border-solid"],
+  [mod-if-screen-lg~="each-child-border-solid"] > [mod-child]{
+    border-style: solid;
+  }
+  [mod-if-screen-lg~="border-dashed"],
+  [mod-if-screen-lg~="each-child-border-dashed"] > [mod-child]{
+    border-style: dashed;
+  }
+  [mod-if-screen-lg~="border-dotted"],
+  [mod-if-screen-lg~="each-child-border-dotted"] > [mod-child]{
+    border-style: dotted;
+  }
+  [mod-if-screen-lg~="border-double"],
+  [mod-if-screen-lg~="each-child-border-double"] > [mod-child]{
+    border-style: double;
+  }
+  [mod-if-screen-lg~="border-1p"],
+  [mod-if-screen-lg~="each-child-border-1p"] > [mod-child]{
+    border-width: 1px;
+  }
+  [mod-if-screen-lg~="border-2p"],
+  [mod-if-screen-lg~="each-child-border-2p"] > [mod-child]{
+    border-width: 2px;
+  }
+
+  [mod-if-screen-lg~="border-3p"],
+  [mod-if-screen-lg~="each-child-border-3p"] > [mod-child]{
+    border-width: 3px;
+  }
+  [mod-if-screen-lg~="border-4p"],
+  [mod-if-screen-lg~="each-child-border-4p"] > [mod-child]{
+    border-width: 4px;
+  }
+  [mod-if-screen-lg~="border-5p"],
+  [mod-if-screen-lg~="each-child-border-5p"] > [mod-child]{
+    border-width: 5px;
+  }
+  [mod-if-screen-lg~="border-6p"],
+  [mod-if-screen-lg~="each-child-border-6p"] > [mod-child]{
+    border-width: 6px;
+  }
+  [mod-if-screen-lg~="border-7p"],
+  [mod-if-screen-lg~="each-child-border-7p"] > [mod-child]{
+    border-width: 7px;
+  }
+  [mod-if-screen-lg~="border-8p"],
+  [mod-if-screen-lg~="each-child-border-8p"] > [mod-child]{
+    border-width: 8px;
+  }
+  [mod-if-screen-lg~="border-9p"],
+  [mod-if-screen-lg~="each-child-border-9p"] > [mod-child]{
+    border-width: 9px;
+  }
+  [mod-if-screen-lg~="border-10p"],
+  [mod-if-screen-lg~="each-child-border-10p"] > [mod-child]{
+    border-width: 10px;
+  }
+  [mod-if-screen-lg~="border-top"],
+  [mod-if-screen-lg~="each-child-border-top"] > [mod-child]{
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+  }
+  [mod-if-screen-lg~="border-right"],
+  [mod-if-screen-lg~="each-child-border-right"] > [mod-child]{
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+  }
+  [mod-if-screen-lg~="border-bottom"],
+  [mod-if-screen-lg~="each-child-border-bottom"] > [mod-child]{
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+  }
+  [mod-if-screen-lg~="border-left"],
+  [mod-if-screen-lg~="each-child-border-left"] > [mod-child]{
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+  }
+  [mod-if-screen-lg~="border-horizontal"],
+  [mod-if-screen-lg~="each-child-border-horizontal"] > [mod-child]{
+    border-left: 0;
+    border-right: 0;
+  }
+  [mod-if-screen-lg~="border-vertical"],
+  [mod-if-screen-lg~="each-child-border-vertical"] > [mod-child]{
+    border-top: 0;
+    border-bottom: 0;
+  }
+  [mod-if-screen-lg~="remove-border"],
+  [mod-if-screen-lg~="each-child-remove-border"] > [mod-child]{
+    border-width: 0 !important;
+  }
+  [mod-if-screen-lg~="remove-top"],
+  [mod-if-screen-lg~="each-child-remove-top"] > [mod-child]{
+    border-top-width: 0 !important;
+  }
+  [mod-if-screen-lg~="remove-right"],
+  [mod-if-screen-lg~="each-child-remove-right"] > [mod-child]{
+    border-right-width: 0 !important;
+  }
+  [mod-if-screen-lg~="remove-bottom"],
+  [mod-if-screen-lg~="each-child-remove-bottom"] > [mod-child]{
+    border-bottom-width: 0 !important;
+  }
+  [mod-if-screen-lg~="remove-left"],
+  [mod-if-screen-lg~="each-child-remove-left"] > [mod-child]{
+    border-left-width: 0 !important;
+  }
+  [mod-if-screen-lg~="remove-horizontal"],
+  [mod-if-screen-lg~="each-child-remove-horizontal"] > [mod-child]{
+    border-top-width: 0 !important;
+    border-bottom-width: 0 !important;
+  }
+  [mod-if-screen-lg~="remove-vertical"],
+  [mod-if-screen-lg~="each-child-remove-vertical"] > [mod-child]{
+    border-left-width: 0 !important;
+    border-right-width: 0 !important;
+  }
+
+}
+
+/* medium size */
+
+@media (max-width: 1280px){
+  
+  [mod-if-screen-md~="border-solid"],
+  [mod-if-screen-md~="each-child-border-solid"] > [mod-child]{
+    border-style: solid;
+  }
+  [mod-if-screen-md~="border-dashed"],
+  [mod-if-screen-md~="each-child-border-dashed"] > [mod-child]{
+    border-style: dashed;
+  }
+  [mod-if-screen-md~="border-dotted"],
+  [mod-if-screen-md~="each-child-border-dotted"] > [mod-child]{
+    border-style: dotted;
+  }
+  [mod-if-screen-md~="border-double"],
+  [mod-if-screen-md~="each-child-border-double"] > [mod-child]{
+    border-style: double;
+  }
+  [mod-if-screen-md~="border-1p"],
+  [mod-if-screen-md~="each-child-border-1p"] > [mod-child]{
+    border-width: 1px;
+  }
+  [mod-if-screen-md~="border-2p"],
+  [mod-if-screen-md~="each-child-border-2p"] > [mod-child]{
+    border-width: 2px;
+  }
+
+  [mod-if-screen-md~="border-3p"],
+  [mod-if-screen-md~="each-child-border-3p"] > [mod-child]{
+    border-width: 3px;
+  }
+  [mod-if-screen-md~="border-4p"],
+  [mod-if-screen-md~="each-child-border-4p"] > [mod-child]{
+    border-width: 4px;
+  }
+  [mod-if-screen-md~="border-5p"],
+  [mod-if-screen-md~="each-child-border-5p"] > [mod-child]{
+    border-width: 5px;
+  }
+  [mod-if-screen-md~="border-6p"],
+  [mod-if-screen-md~="each-child-border-6p"] > [mod-child]{
+    border-width: 6px;
+  }
+  [mod-if-screen-md~="border-7p"],
+  [mod-if-screen-md~="each-child-border-7p"] > [mod-child]{
+    border-width: 7px;
+  }
+  [mod-if-screen-md~="border-8p"],
+  [mod-if-screen-md~="each-child-border-8p"] > [mod-child]{
+    border-width: 8px;
+  }
+  [mod-if-screen-md~="border-9p"],
+  [mod-if-screen-md~="each-child-border-9p"] > [mod-child]{
+    border-width: 9px;
+  }
+  [mod-if-screen-md~="border-10p"],
+  [mod-if-screen-md~="each-child-border-10p"] > [mod-child]{
+    border-width: 10px;
+  }
+  [mod-if-screen-md~="border-top"],
+  [mod-if-screen-md~="each-child-border-top"] > [mod-child]{
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+  }
+  [mod-if-screen-md~="border-right"],
+  [mod-if-screen-md~="each-child-border-right"] > [mod-child]{
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+  }
+  [mod-if-screen-md~="border-bottom"],
+  [mod-if-screen-md~="each-child-border-bottom"] > [mod-child]{
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+  }
+  [mod-if-screen-md~="border-left"],
+  [mod-if-screen-md~="each-child-border-left"] > [mod-child]{
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+  }
+  [mod-if-screen-md~="border-horizontal"],
+  [mod-if-screen-md~="each-child-border-horizontal"] > [mod-child]{
+    border-left: 0;
+    border-right: 0;
+  }
+  [mod-if-screen-md~="border-vertical"],
+  [mod-if-screen-md~="each-child-border-vertical"] > [mod-child]{
+    border-top: 0;
+    border-bottom: 0;
+  }
+  [mod-if-screen-md~="remove-border"],
+  [mod-if-screen-md~="each-child-remove-border"] > [mod-child]{
+    border-width: 0 !important;
+  }
+  [mod-if-screen-md~="remove-top"],
+  [mod-if-screen-md~="each-child-remove-top"] > [mod-child]{
+    border-top-width: 0 !important;
+  }
+  [mod-if-screen-md~="remove-right"],
+  [mod-if-screen-md~="each-child-remove-right"] > [mod-child]{
+    border-right-width: 0 !important;
+  }
+  [mod-if-screen-md~="remove-bottom"],
+  [mod-if-screen-md~="each-child-remove-bottom"] > [mod-child]{
+    border-bottom-width: 0 !important;
+  }
+  [mod-if-screen-md~="remove-left"],
+  [mod-if-screen-md~="each-child-remove-left"] > [mod-child]{
+    border-left-width: 0 !important;
+  }
+  [mod-if-screen-md~="remove-horizontal"],
+  [mod-if-screen-md~="each-child-remove-horizontal"] > [mod-child]{
+    border-top-width: 0 !important;
+    border-bottom-width: 0 !important;
+  }
+  [mod-if-screen-md~="remove-vertical"],
+  [mod-if-screen-md~="each-child-remove-vertical"] > [mod-child]{
+    border-left-width: 0 !important;
+    border-right-width: 0 !important;
+  }
+
+}
+
+/* small size */
+
+@media (max-width: 960px){
+  
+  [mod-if-screen-sm~="border-solid"],
+  [mod-if-screen-sm~="each-child-border-solid"] > [mod-child]{
+    border-style: solid;
+  }
+  [mod-if-screen-sm~="border-dashed"],
+  [mod-if-screen-sm~="each-child-border-dashed"] > [mod-child]{
+    border-style: dashed;
+  }
+  [mod-if-screen-sm~="border-dotted"],
+  [mod-if-screen-sm~="each-child-border-dotted"] > [mod-child]{
+    border-style: dotted;
+  }
+  [mod-if-screen-sm~="border-double"],
+  [mod-if-screen-sm~="each-child-border-double"] > [mod-child]{
+    border-style: double;
+  }
+  [mod-if-screen-sm~="border-1p"],
+  [mod-if-screen-sm~="each-child-border-1p"] > [mod-child]{
+    border-width: 1px;
+  }
+  [mod-if-screen-sm~="border-2p"],
+  [mod-if-screen-sm~="each-child-border-2p"] > [mod-child]{
+    border-width: 2px;
+  }
+
+  [mod-if-screen-sm~="border-3p"],
+  [mod-if-screen-sm~="each-child-border-3p"] > [mod-child]{
+    border-width: 3px;
+  }
+  [mod-if-screen-sm~="border-4p"],
+  [mod-if-screen-sm~="each-child-border-4p"] > [mod-child]{
+    border-width: 4px;
+  }
+  [mod-if-screen-sm~="border-5p"],
+  [mod-if-screen-sm~="each-child-border-5p"] > [mod-child]{
+    border-width: 5px;
+  }
+  [mod-if-screen-sm~="border-6p"],
+  [mod-if-screen-sm~="each-child-border-6p"] > [mod-child]{
+    border-width: 6px;
+  }
+  [mod-if-screen-sm~="border-7p"],
+  [mod-if-screen-sm~="each-child-border-7p"] > [mod-child]{
+    border-width: 7px;
+  }
+  [mod-if-screen-sm~="border-8p"],
+  [mod-if-screen-sm~="each-child-border-8p"] > [mod-child]{
+    border-width: 8px;
+  }
+  [mod-if-screen-sm~="border-9p"],
+  [mod-if-screen-sm~="each-child-border-9p"] > [mod-child]{
+    border-width: 9px;
+  }
+  [mod-if-screen-sm~="border-10p"],
+  [mod-if-screen-sm~="each-child-border-10p"] > [mod-child]{
+    border-width: 10px;
+  }
+  [mod-if-screen-sm~="border-top"],
+  [mod-if-screen-sm~="each-child-border-top"] > [mod-child]{
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+  }
+  [mod-if-screen-sm~="border-right"],
+  [mod-if-screen-sm~="each-child-border-right"] > [mod-child]{
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+  }
+  [mod-if-screen-sm~="border-bottom"],
+  [mod-if-screen-sm~="each-child-border-bottom"] > [mod-child]{
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+  }
+  [mod-if-screen-sm~="border-left"],
+  [mod-if-screen-sm~="each-child-border-left"] > [mod-child]{
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+  }
+  [mod-if-screen-sm~="border-horizontal"],
+  [mod-if-screen-sm~="each-child-border-horizontal"] > [mod-child]{
+    border-left: 0;
+    border-right: 0;
+  }
+  [mod-if-screen-sm~="border-vertical"],
+  [mod-if-screen-sm~="each-child-border-vertical"] > [mod-child]{
+    border-top: 0;
+    border-bottom: 0;
+  }
+  [mod-if-screen-sm~="remove-border"],
+  [mod-if-screen-sm~="each-child-remove-border"] > [mod-child]{
+    border-width: 0 !important;
+  }
+  [mod-if-screen-sm~="remove-top"],
+  [mod-if-screen-sm~="each-child-remove-top"] > [mod-child]{
+    border-top-width: 0 !important;
+  }
+  [mod-if-screen-sm~="remove-right"],
+  [mod-if-screen-sm~="each-child-remove-right"] > [mod-child]{
+    border-right-width: 0 !important;
+  }
+  [mod-if-screen-sm~="remove-bottom"],
+  [mod-if-screen-sm~="each-child-remove-bottom"] > [mod-child]{
+    border-bottom-width: 0 !important;
+  }
+  [mod-if-screen-sm~="remove-left"],
+  [mod-if-screen-sm~="each-child-remove-left"] > [mod-child]{
+    border-left-width: 0 !important;
+  }
+  [mod-if-screen-sm~="remove-horizontal"],
+  [mod-if-screen-sm~="each-child-remove-horizontal"] > [mod-child]{
+    border-top-width: 0 !important;
+    border-bottom-width: 0 !important;
+  }
+  [mod-if-screen-sm~="remove-vertical"],
+  [mod-if-screen-sm~="each-child-remove-vertical"] > [mod-child]{
+    border-left-width: 0 !important;
+    border-right-width: 0 !important;
+  }
+
+}
+
+/* extra small xs */
+
+@media (max-width: 748px){
+
+ [mod-if-screen-xs~="border-solid"],
+  [mod-if-screen-xs~="each-child-border-solid"] > [mod-child]{
+    border-style: solid;
+  }
+  [mod-if-screen-xs~="border-dashed"],
+  [mod-if-screen-xs~="each-child-border-dashed"] > [mod-child]{
+    border-style: dashed;
+  }
+  [mod-if-screen-xs~="border-dotted"],
+  [mod-if-screen-xs~="each-child-border-dotted"] > [mod-child]{
+    border-style: dotted;
+  }
+  [mod-if-screen-xs~="border-double"],
+  [mod-if-screen-xs~="each-child-border-double"] > [mod-child]{
+    border-style: double;
+  }
+  [mod-if-screen-xs~="border-1p"],
+  [mod-if-screen-xs~="each-child-border-1p"] > [mod-child]{
+    border-width: 1px;
+  }
+  [mod-if-screen-xs~="border-2p"],
+  [mod-if-screen-xs~="each-child-border-2p"] > [mod-child]{
+    border-width: 2px;
+  }
+
+  [mod-if-screen-xs~="border-3p"],
+  [mod-if-screen-xs~="each-child-border-3p"] > [mod-child]{
+    border-width: 3px;
+  }
+  [mod-if-screen-xs~="border-4p"],
+  [mod-if-screen-xs~="each-child-border-4p"] > [mod-child]{
+    border-width: 4px;
+  }
+  [mod-if-screen-xs~="border-5p"],
+  [mod-if-screen-xs~="each-child-border-5p"] > [mod-child]{
+    border-width: 5px;
+  }
+  [mod-if-screen-xs~="border-6p"],
+  [mod-if-screen-xs~="each-child-border-6p"] > [mod-child]{
+    border-width: 6px;
+  }
+  [mod-if-screen-xs~="border-7p"],
+  [mod-if-screen-xs~="each-child-border-7p"] > [mod-child]{
+    border-width: 7px;
+  }
+  [mod-if-screen-xs~="border-8p"],
+  [mod-if-screen-xs~="each-child-border-8p"] > [mod-child]{
+    border-width: 8px;
+  }
+  [mod-if-screen-xs~="border-9p"],
+  [mod-if-screen-xs~="each-child-border-9p"] > [mod-child]{
+    border-width: 9px;
+  }
+  [mod-if-screen-xs~="border-10p"],
+  [mod-if-screen-xs~="each-child-border-10p"] > [mod-child]{
+    border-width: 10px;
+  }
+  [mod-if-screen-xs~="border-top"],
+  [mod-if-screen-xs~="each-child-border-top"] > [mod-child]{
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+  }
+  [mod-if-screen-xs~="border-right"],
+  [mod-if-screen-xs~="each-child-border-right"] > [mod-child]{
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+  }
+  [mod-if-screen-xs~="border-bottom"],
+  [mod-if-screen-xs~="each-child-border-bottom"] > [mod-child]{
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+  }
+  [mod-if-screen-xs~="border-left"],
+  [mod-if-screen-xs~="each-child-border-left"] > [mod-child]{
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+  }
+  [mod-if-screen-xs~="border-horizontal"],
+  [mod-if-screen-xs~="each-child-border-horizontal"] > [mod-child]{
+    border-left: 0;
+    border-right: 0;
+  }
+  [mod-if-screen-xs~="border-vertical"],
+  [mod-if-screen-xs~="each-child-border-vertical"] > [mod-child]{
+    border-top: 0;
+    border-bottom: 0;
+  }
+  [mod-if-screen-xs~="remove-border"],
+  [mod-if-screen-xs~="each-child-remove-border"] > [mod-child]{
+    border-width: 0 !important;
+  }
+  [mod-if-screen-xs~="remove-top"],
+  [mod-if-screen-xs~="each-child-remove-top"] > [mod-child]{
+    border-top-width: 0 !important;
+  }
+  [mod-if-screen-xs~="remove-right"],
+  [mod-if-screen-xs~="each-child-remove-right"] > [mod-child]{
+    border-right-width: 0 !important;
+  }
+  [mod-if-screen-xs~="remove-bottom"],
+  [mod-if-screen-xs~="each-child-remove-bottom"] > [mod-child]{
+    border-bottom-width: 0 !important;
+  }
+  [mod-if-screen-xs~="remove-left"],
+  [mod-if-screen-xs~="each-child-remove-left"] > [mod-child]{
+    border-left-width: 0 !important;
+  }
+  [mod-if-screen-xs~="remove-horizontal"],
+  [mod-if-screen-xs~="each-child-remove-horizontal"] > [mod-child]{
+    border-top-width: 0 !important;
+    border-bottom-width: 0 !important;
+  }
+  [mod-if-screen-xs~="remove-vertical"],
+  [mod-if-screen-xs~="each-child-remove-vertical"] > [mod-child]{
+    border-left-width: 0 !important;
+    border-right-width: 0 !important;
+  }
+
+}
+
+/* extra extra small */
+
+@media (max-width: 480px){
+  
+  [mod-if-screen-xxs~="border-solid"],
+  [mod-if-screen-xxs~="each-child-border-solid"] > [mod-child]{
+    border-style: solid;
+  }
+  [mod-if-screen-xxs~="border-dashed"],
+  [mod-if-screen-xxs~="each-child-border-dashed"] > [mod-child]{
+    border-style: dashed;
+  }
+  [mod-if-screen-xxs~="border-dotted"],
+  [mod-if-screen-xxs~="each-child-border-dotted"] > [mod-child]{
+    border-style: dotted;
+  }
+  [mod-if-screen-xxs~="border-double"],
+  [mod-if-screen-xxs~="each-child-border-double"] > [mod-child]{
+    border-style: double;
+  }
+  [mod-if-screen-xxs~="border-1p"],
+  [mod-if-screen-xxs~="each-child-border-1p"] > [mod-child]{
+    border-width: 1px;
+  }
+  [mod-if-screen-xxs~="border-2p"],
+  [mod-if-screen-xxs~="each-child-border-2p"] > [mod-child]{
+    border-width: 2px;
+  }
+
+  [mod-if-screen-xxs~="border-3p"],
+  [mod-if-screen-xxs~="each-child-border-3p"] > [mod-child]{
+    border-width: 3px;
+  }
+  [mod-if-screen-xxs~="border-4p"],
+  [mod-if-screen-xxs~="each-child-border-4p"] > [mod-child]{
+    border-width: 4px;
+  }
+  [mod-if-screen-xxs~="border-5p"],
+  [mod-if-screen-xxs~="each-child-border-5p"] > [mod-child]{
+    border-width: 5px;
+  }
+  [mod-if-screen-xxs~="border-6p"],
+  [mod-if-screen-xxs~="each-child-border-6p"] > [mod-child]{
+    border-width: 6px;
+  }
+  [mod-if-screen-xxs~="border-7p"],
+  [mod-if-screen-xxs~="each-child-border-7p"] > [mod-child]{
+    border-width: 7px;
+  }
+  [mod-if-screen-xxs~="border-8p"],
+  [mod-if-screen-xxs~="each-child-border-8p"] > [mod-child]{
+    border-width: 8px;
+  }
+  [mod-if-screen-xxs~="border-9p"],
+  [mod-if-screen-xxs~="each-child-border-9p"] > [mod-child]{
+    border-width: 9px;
+  }
+  [mod-if-screen-xxs~="border-10p"],
+  [mod-if-screen-xxs~="each-child-border-10p"] > [mod-child]{
+    border-width: 10px;
+  }
+  [mod-if-screen-xxs~="border-top"],
+  [mod-if-screen-xxs~="each-child-border-top"] > [mod-child]{
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+  }
+  [mod-if-screen-xxs~="border-right"],
+  [mod-if-screen-xxs~="each-child-border-right"] > [mod-child]{
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+  }
+  [mod-if-screen-xxs~="border-bottom"],
+  [mod-if-screen-xxs~="each-child-border-bottom"] > [mod-child]{
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+  }
+  [mod-if-screen-xxs~="border-left"],
+  [mod-if-screen-xxs~="each-child-border-left"] > [mod-child]{
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+  }
+  [mod-if-screen-xxs~="border-horizontal"],
+  [mod-if-screen-xxs~="each-child-border-horizontal"] > [mod-child]{
+    border-left: 0;
+    border-right: 0;
+  }
+  [mod-if-screen-xxs~="border-vertical"],
+  [mod-if-screen-xxs~="each-child-border-vertical"] > [mod-child]{
+    border-top: 0;
+    border-bottom: 0;
+  }
+  [mod-if-screen-xxs~="remove-border"],
+  [mod-if-screen-xxs~="each-child-remove-border"] > [mod-child]{
+    border-width: 0 !important;
+  }
+  [mod-if-screen-xxs~="remove-top"],
+  [mod-if-screen-xxs~="each-child-remove-top"] > [mod-child]{
+    border-top-width: 0 !important;
+  }
+  [mod-if-screen-xxs~="remove-right"],
+  [mod-if-screen-xxs~="each-child-remove-right"] > [mod-child]{
+    border-right-width: 0 !important;
+  }
+  [mod-if-screen-xxs~="remove-bottom"],
+  [mod-if-screen-xxs~="each-child-remove-bottom"] > [mod-child]{
+    border-bottom-width: 0 !important;
+  }
+  [mod-if-screen-xxs~="remove-left"],
+  [mod-if-screen-xxs~="each-child-remove-left"] > [mod-child]{
+    border-left-width: 0 !important;
+  }
+  [mod-if-screen-xxs~="remove-horizontal"],
+  [mod-if-screen-xxs~="each-child-remove-horizontal"] > [mod-child]{
+    border-top-width: 0 !important;
+    border-bottom-width: 0 !important;
+  }
+  [mod-if-screen-xxs~="remove-vertical"],
+  [mod-if-screen-xxs~="each-child-remove-vertical"] > [mod-child]{
+    border-left-width: 0 !important;
+    border-right-width: 0 !important;
+  }
+
+}
