@@ -24,7 +24,6 @@
   @desc: border-style solid
 */
 
-
 [mod-border~="solid"],
 [mod-each-child~="border-solid"] > [mod-child],
 [mod-each-child~="on-hover-border-solid"] > [mod-child]:hover,
