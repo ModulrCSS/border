@@ -1,0 +1,25 @@
+{
+  "name": "@modulr/border",
+  "version": "1.0.0",
+  "description": "Modulr.css Border Module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ModulrCSS/border.git"
+  },
+  "keywords": [
+    "modulr",
+    "css",
+    "frontend",
+    "borders"
+  ],
+  "author": "Alan Museljic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ModulrCSS/border/issues"
+  },
+  "homepage": "https://github.com/ModulrCSS/border#readme"
+}
